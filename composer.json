@@ -3,7 +3,6 @@
   "license": "MIT",
   "type": "GPS Tracker",
   "description": "Yet Another Tracker",
-  "author": "Bruce P. Carvalho <brucepcarvalho@gmail.com>",
   "autoload": {
     "psr-4": {
       "": "src/"
