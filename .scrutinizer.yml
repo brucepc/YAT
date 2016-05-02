@@ -4,7 +4,10 @@ filter:
 
 before_commands:
     - 'composer install --no-interaction --no-scripts'
-
+checks:
+  php:
+    code_rating: true
+    duplication: true
 tools:
     php_mess_detector:
         config:
